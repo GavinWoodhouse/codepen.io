@@ -1,0 +1,211 @@
+body {
+    margin: 0px;
+    font-family: 'League Gothic', sans-serif;
+}
+
+.navigation-wrapper {
+    height: 65px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(251, 255, 4);
+    /* Flexbox Container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 250px;
+    height: 50px;
+}
+
+.navigation-wrapper > .left-column > .logo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.center-column > .navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    grid-gap: 42px;
+    width: 300px;
+    align-items: center;
+}
+
+.center-column > .heading {
+    position: absolute;
+    font-size: 0.83rem;
+    display: block;
+    line-height: 20px;
+    top: 12px;
+}
+
+.links-wrapper {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 900px;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link {
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.links-wrapper > .nav-link:nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.links-wrapper > .nav-link:nth-child(1):before {
+    content: 'Explore';
+    text-transform: uppercase;
+    color: #f4e17f;
+    font-size: 0.83rem;
+}
+
+.links-wrapper :nth-child(5) {
+    color: grey;
+    margin-left: 5px;
+}
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.right-column > .buttons > .btn {
+    background-color: rgb(87, 85, 82);
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(87, 85, 82);
+    border-radius: 2px;
+    outline: none;
+}
+
+.right-column > .buttons > .btn strong {
+    color: greenyellow;
+}
+
+.main-section {
+    background: radial-gradient(circle farthest-corner at 200px 0, #434752, #000);
+    background-position: top left;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-section > .promo-text{
+    padding: 3rem;
+    max-width: 775px;
+}
+
+.main-section > .promo-text > .top-heading {
+    color: rgb(182, 173, 173);
+    padding: 1px 20px;
+    width: 1000px;
+    border-radius: 2px;
+}
+
+.top-heading p {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.top-heading p strong {
+    color: white;
+}
+
+.bottom-heading h3 {
+    font-size: 1.6rem;
+    color: rgb(163, 158, 158);
+}
+
+.main-section > .bottom-heading {
+    color: gray;
+    padding: 1px 20px;
+    margin-top: 15px;
+    width: 1000px;
+    border-radius: 2px;
+    filter: blur(100%);
+}
+
+.projects-promo {
+    max-width: 650px;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    display: block;
+    margin: 0px;
+}
+
+.projects-promo-text {
+    position: relative;
+    top: 25px;
+    left: 40px;
+    color: white;
+    margin: 0px 0px 15px 260px;
+}
+
+.projects-promo > .projects-promo-text strong {
+    color: aqua;
+}
+
+.projects-screenshot {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 260px;
+}
+
+.promo-landing-page-links {
+    display: flex;
+    position: relative;
+}
+
+.promo-landing-page-links > a {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+    background: #36383f;
+    border: 1px solid #676767;
+}
+
+.promo-landing-page-links > a .promo-for {
+    font-size: 1.4rem;
+    vertical-align: center;
+    font-family: 'Telefon', Sans-Serif;
+    text-transform: uppercase;
+}
+
+.more-buttons > .grn-btn {
+    background-color: rgb(79, 199, 79);
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(87, 85, 82);
+    border-radius: 2px;
+    outline: none;
+}
+
+.more-buttons > .blk-btn {
+    background-color: #1d1e22;
+    color: rgb(255, 255, 255);
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid rgb(87, 85, 82);
+    border-radius: 2px;
+    outline: none;
+}
